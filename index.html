@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Tip and Bill Splitter Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Bill total input -->
+        <header class="mb-5">
+            <h1 class="display-4">Tip Calculator</h1>
+        </header>
+        <div class="row">
+            <div class="col-sm">
+                <label for="billTotal" class="h4">Bill Total</label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">$</span>
+                    </div>
+                    <input type="text" class="form-control form-control-lg" id="billTotal"
+                        aria-label="Amount (to the nearest dollar)">
+                </div>
+            </div>
+        </div>
+        <!-- On Screen calculator Inputs -->
+        <div class="row">
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-sm mb-2">
+                        <button id="button-1" class="btn btn-block btn-primary number" value="1"><span
+                                class="h3">1</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-2" class="btn btn-block btn-primary number" value="2"><span
+                                class="h3">2</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-3" class="btn btn-block btn-primary number" value="3"><span
+                                class="h3">3</span></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm mb-2">
+                        <button id="button-1" class="btn btn-block btn-primary number" value="4"><span
+                                class="h3">4</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-2" class="btn btn-block btn-primary number" value="5"><span
+                                class="h3">5</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-3" class="btn btn-block btn-primary number" value="6"><span
+                                class="h3">6</span></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm mb-2">
+                        <button id="button-1" class="btn btn-block btn-primary number" value="7"><span
+                                class="h3">7</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-2" class="btn btn-block btn-primary number" value="8"><span
+                                class="h3">8</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-3" class="btn btn-block btn-primary number" value="9"><span
+                                class="h3">9</span></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm mb-2">
+                        <button id="button-1" class="btn btn-block btn-primary number" value="."><span
+                                class="h3">.</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-2" class="btn btn-block btn-primary number" value="0"><span
+                                class="h3">0</span></button>
+                    </div>
+                    <div class="col-sm">
+                        <button id="button-3" class="btn btn-block btn-primary backspace" value="clear"><i
+                                class="fas fa-backspace h3"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Tip amount input -->
+        <div class="row">
+            <div class="col-sm">
+                <label for="tipPercentage" class="h4">Tip</label>
+                <div class="input-group mb-3">
+                    <input type="number" min="0" max="100" id="tipPercentage" value="18"
+                        class="form-control form-control-lg" aria-label="Tip percantage between 0 and 100" />
+                    <div class="input-group-append">
+                        <span class="input-group-text">%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Split between options -->
+        <div class="row" id="split-area">
+            <div class="col-sm">
+                <label for="splitNumber" class="h4">Split</label>
+                <div class="input-group mb-3">
+                    <button type="button" id="btn-decrease" class="btn btn-primary" aria-label="Decrease"><i
+                            class="fas fa-minus"></i></button>
+                    <span id="splitNumber" class="h2 mx-2">1</span>
+                    <button type="button" id="btn-increase" class="btn btn-primary" aria-label="Increase"><i
+                            class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <div class="col-sm">
+                <label for="splitTotal" class="h4">Split Total</label>
+                <div class="input-group mb-3">
+                    <span id="splitTotal" class="h2">$ 0.00</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button id="btn-calculate" class="btn btn-success btn-lg btn-block">
+                    Calculate
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e67b748ce1.js" crossorigin="anonymous"></script>
+    <script src="script.js" type="text/javascript">
+    </script>
+</body>
+
+</html>

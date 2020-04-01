@@ -2,9 +2,9 @@
 
 ## Prize
 
-$25 CAD Amazon gift card + bragging rights.
+\$25 CAD Amazon gift card + bragging rights.
 
-Tip: Read the [General Information Document]("./General\ Information.md") for more info on how to get started and submit.
+Tip: Read the [General Information Document]("./General%20Information.md") for more info on how to get started and submit.
 
 ## Objective
 
@@ -12,17 +12,17 @@ Interactive calculators are a beautiful way to inform, entertain, and educate pe
 
 Here are some examples of interesting interactive calculators. Notice that they all vary in feature sets, functionality, objective, and scope. Some of them focus on beauty and aesthetics, while others focus on practicality and simplicity.
 
-* https://goodcalculators.com/meat-cooking-time-calculator/
-* https://www.bills.com/debt/tools/ways-to-save
-* https://paulhoughton.github.io/mortgage/
-* http://www.diablo3gemcalculator.com/
-* https://calculator.numerologist.com/
+- https://goodcalculators.com/meat-cooking-time-calculator/
+- https://www.bills.com/debt/tools/ways-to-save
+- https://paulhoughton.github.io/mortgage/
+- http://www.diablo3gemcalculator.com/
+- https://calculator.numerologist.com/
 
 Today's objective is to create a simple interactive calculator of your own design.
 
 ## Requirements
 
-Create an interactive calculator! 
+Create an interactive calculator!
 
 The design can be of your own choosing, and so this project is very open-ended. Here are some suggestions:
 
@@ -37,7 +37,7 @@ Outputs: tip amount, grand total
 
 ### Suggested project: Bill split calculator
 
-Take a restaurant bill and split it between a number of parties. 
+Take a restaurant bill and split it between a number of parties.
 
 Inputs: bill amount, number of parties.
 Outputs: amount of money each party has to pay
@@ -64,21 +64,22 @@ There are no other restrictions.
 
 ## Technology suggestions
 
-* Templated HTML
-* React
-* Vue
-* Angular
-* Pure Express API - see StackOverflow link in "Library Suggestions" below
+- Templated HTML
+- React
+- Vue
+- Angular
+- Pure Express API - see StackOverflow link in "Library Suggestions" below
 
 ## Library suggestions
 
 Avoid D3.js unless you're already experienced at it. D3 is very powerful for custom graphs, but has an extremely steep learning curve, making it unsuitable for this project.
 
 Good libraries to use:
-* Google Charts - https://developers.google.com/chart
-* Plotly - https://plotly.com/javascript/plotly-fundamentals/
-* ChartJS - https://www.chartjs.org/
-* If you're using strictly backend, see https://stackoverflow.com/questions/44543729/how-to-render-a-graph-as-image-in-node. We have not tested any of these suggestions, but [Vega](https://www.npmjs.com/package/vega) looks great so far.
+
+- Google Charts - https://developers.google.com/chart
+- Plotly - https://plotly.com/javascript/plotly-fundamentals/
+- ChartJS - https://www.chartjs.org/
+- If you're using strictly backend, see https://stackoverflow.com/questions/44543729/how-to-render-a-graph-as-image-in-node. We have not tested any of these suggestions, but [Vega](https://www.npmjs.com/package/vega) looks great so far.
 
 ## Tips for success:
 
