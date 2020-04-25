@@ -6,11 +6,6 @@
 
 ![App screenshot](screenshot.png)
 
-**Demo**
-
-![How to use it](http://g.recordit.co/14IUShqNPq.gif)
-
-
 ## Technologies Used
 
 - HTML
@@ -21,6 +16,9 @@
 
 - Calculate custom tip percentage
 - Split the bill as many ways as you like
+**Demo**
+
+![How to use it](http://g.recordit.co/14IUShqNPq.gif)
 
 ## How to use it:
 
