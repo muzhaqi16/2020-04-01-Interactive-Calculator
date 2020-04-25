@@ -1,10 +1,10 @@
 # Interactive Tip Calculator and Splitter
 
-> Simple interactive tip calculator and splitter. Check it out here [Live Demo](https://muzhaqi16.github.io/2020-04-01-Interactive-Calculator/
+> Simple interactive tip calculator and splitter. Check it out here [Live Demo](https://muzhaqi16.github.io/2020-04-01-Interactive-Calculator/)
 
 **Screenshot**
 
-![App screenshot](./screenshot.png)
+![App screenshot](screenshot.png)
 
 **Demo**
 
