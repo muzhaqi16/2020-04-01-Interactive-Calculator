@@ -1,89 +1,61 @@
-# Today's Objective: Interactive Calculator
-[Live Link](https://muzhaqi16.github.io/2020-04-01-Interactive-Calculator/)
-## Prize
+# Interactive Tip Calculator and Splitter
 
-\$25 CAD Amazon gift card + bragging rights.
+> Simple interactive tip calculator and splitter. Check it out here [Live Demo](https://muzhaqi16.github.io/2020-04-01-Interactive-Calculator/
 
-Tip: Read the [General Information Document]("./General%20Information.md") for more info on how to get started and submit.
+**Screenshot**
 
-## Objective
+![App screenshot](./screenshot.png)
 
-Interactive calculators are a beautiful way to inform, entertain, and educate people. Some of them are very beautiful, featuring graphs, charts, and animations. Many of them are simple, practical, and pragmatic. They find uses in marketing, engineering, finance, medicine -- pretty much every field. At some point in their careers, most developers have been involved in a calculator project or two.
+**Demo**
 
-Here are some examples of interesting interactive calculators. Notice that they all vary in feature sets, functionality, objective, and scope. Some of them focus on beauty and aesthetics, while others focus on practicality and simplicity.
+![How to use it](http://g.recordit.co/14IUShqNPq.gif)
 
-- https://goodcalculators.com/meat-cooking-time-calculator/
-- https://www.bills.com/debt/tools/ways-to-save
-- https://paulhoughton.github.io/mortgage/
-- http://www.diablo3gemcalculator.com/
-- https://calculator.numerologist.com/
 
-Today's objective is to create a simple interactive calculator of your own design.
+## Technologies Used
 
-## Requirements
+- HTML
+- Bootstrap
+- jQuery
 
-Create an interactive calculator!
+## Features
 
-The design can be of your own choosing, and so this project is very open-ended. Here are some suggestions:
+- Calculate custom tip percentage
+- Split the bill as many ways as you like
 
-`Tip: Make sure you choose an EASY problem! You only have 2h15m to finish while also writing clean code.`
+## How to use it:
 
-### Suggested project: Tip calculator
+- Clone this repo to your local machine using ```git clone https://github.com/muzhaqi16/2020-04-01-Interactive-Calculator.git```
+- ```cd``` into ```2020-04-01-Interactive-Calculator```
+- Open index.html with your favourite browser
 
-Take a restaurant bill and calculate how much tip you have to add on top of it. Easy peasy!
+---
 
-Inputs: bill amount, tip percentage
-Outputs: tip amount, grand total
+## Contributing
 
-### Suggested project: Bill split calculator
+> I would love your contribution at making this repo better and adding new features. 
+> To get started at contributing at this repo follow the steps below...
 
-Take a restaurant bill and split it between a number of parties.
+### Step 1
 
-Inputs: bill amount, number of parties.
-Outputs: amount of money each party has to pay
+- **Option 1**
+    - 🍴 Fork this repo!
 
-To make it more fun, you can maybe create some kind of way to assign greater or lower ratios of the bill to different parties.
+- **Option 2**
+    - 👯 Clone this repo to your local machine using `https://github.com/muzhaqi16/2020-04-01-Interactive-Calculator.git`
 
-### Suggested project: Compound growth calculator
+### Step 2
 
-Create a growth chart that tells you how fast a number will grow over time, given a growth rate.
+- **HACK AWAY!** 🔨🔨🔨
 
-Input: initial number, growth rate
-Output: a chart or table that shows you how much the number has grown over time.
+### Step 3
 
-### Or, do your own thing!
+- 🔃 Create a new pull request using <a href="hhttps://github.com/muzhaqi16/2020-04-01-Interactive-Calculator/compare" target="_blank">`https://github.com/muzhaqi16/2020-04-01-Interactive-Calculator/compare`</a>.
 
-You can create something cooler if you wish. Please don't copy/paste old projects, though -- write from scratch, even if you're inspired by the old project :-)
+---
 
-## Restrictions
+## License
 
-You must be able to deploy your project online.
-Your project must use JavaScript.
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-There are no other restrictions.
-
-## Technology suggestions
-
-- Templated HTML
-- React
-- Vue
-- Angular
-- Pure Express API - see StackOverflow link in "Library Suggestions" below
-
-## Library suggestions
-
-Avoid D3.js unless you're already experienced at it. D3 is very powerful for custom graphs, but has an extremely steep learning curve, making it unsuitable for this project.
-
-Good libraries to use:
-
-- Google Charts - https://developers.google.com/chart
-- Plotly - https://plotly.com/javascript/plotly-fundamentals/
-- ChartJS - https://www.chartjs.org/
-- If you're using strictly backend, see https://stackoverflow.com/questions/44543729/how-to-render-a-graph-as-image-in-node. We have not tested any of these suggestions, but [Vega](https://www.npmjs.com/package/vega) looks great so far.
-
-## Tips for success:
-
-1. The project is intentionally simple so you can focus on code quality.
-1. The requirements are intentionally minimalistic so you can get as creative as you'd like.
-1. You get a LOT of time for code review comments. So you can win even if you feel your project isn't great, simply on the strength of your code review comments!
-1. Keep in mind, 33% of your score is based on aesthetic appeal! So try to make it look nice.
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2020 © <a href="http://muzhaqi.com" target="_blank">Artan Muzhaqi</a>.
