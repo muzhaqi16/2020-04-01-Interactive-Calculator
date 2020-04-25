@@ -8,7 +8,7 @@
 
 ## Technologies Used
 
-- HTML
+- HTML, CSS
 - Bootstrap
 - jQuery
 
