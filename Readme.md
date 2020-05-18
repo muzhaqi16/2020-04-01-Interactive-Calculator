@@ -48,7 +48,7 @@
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="hhttps://github.com/muzhaqi16/2020-04-01-Interactive-Calculator/compare" target="_blank">`https://github.com/muzhaqi16/2020-04-01-Interactive-Calculator/compare`</a>.
+- 🔃 Create a new pull request using <a href="https://github.com/muzhaqi16/2020-04-01-Interactive-Calculator/compare" target="_blank">`https://github.com/muzhaqi16/2020-04-01-Interactive-Calculator/compare`</a>.
 
 ---
 
