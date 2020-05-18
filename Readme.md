@@ -1,6 +1,6 @@
 # Interactive Tip Calculator and Bill Splitter
 
-> Simple interactive tip calculator and splitter. Check it out here [Live Demo](https://muzhaqi16.github.io/2020-04-01-Interactive-Calculator/)
+> Simple interactive tip calculator and bill splitter. Check it out here [Live Demo](https://muzhaqi16.github.io/2020-04-01-Interactive-Calculator/)
 > This project was build as part of mini hackathon held by [Mintbean](https://mintbean.io/scores/artanmuzhaqi@gmail.com)
 
 **Screenshot**
